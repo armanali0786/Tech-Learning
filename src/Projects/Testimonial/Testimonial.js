@@ -13,7 +13,7 @@ function Testimonial() {
   }, [testimonials])
 
   return (
-    <div className='container m-auto mb-2'>
+    <div className='container m-auto mb-2 '>
       <Title text={"Testimonial app "} />
       <Button
         text={"Posts"}
@@ -22,7 +22,7 @@ function Testimonial() {
       />
       <Button
         text={"Users"}
-        btnClass="btn-info btn-sm"
+        btnClass="btn-info btn-sm "
         onClick={() => setTestimonials("Users")}
       />
       <Button
