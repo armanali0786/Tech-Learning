@@ -17,7 +17,6 @@ export default function DialogBox({ width = 350 }) {
             justifyContent: "flex-end",
         })
     }
-
     const handleUnsubscribe = () => {
         setSubscription({
             title: "Sorry",
