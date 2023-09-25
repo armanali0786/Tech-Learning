@@ -7,13 +7,12 @@ export default function NewNote({note, onClick,text,cardBg}) {
   
   useEffect(() => {
     !newCardBg && setNewCardBg(cardBg);
-    console.log("card color", newCardBg)
   }, [newCardBg]);
 
   return (
     <div className='pt-5'>
-    <NoteStyle className={`card ${newCardBg}`}>
-      <div className='card-header text-right'>
+    <NoteStyle className={`card `}>
+      <div className={`card-header text-right ${newCardBg}`}>
         <Icons>
           < BiAddToQueue />
           <DeleteIcon>

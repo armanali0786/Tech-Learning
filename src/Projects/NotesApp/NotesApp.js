@@ -16,11 +16,11 @@ export default function NotesApp() {
         setNotes(notes.filter((note) => note.id !== id));
     }
     const cards = [
-        "card-info",
-        "card-success",
-        "card-primary",
-        "card-warning",
-        "card-danger",
+        "bg-info",
+        "bg-success",
+        "bg-primary",
+        "bg-warning",
+        "bg-danger",
     ];
     const randomizeBg = () => {
         const random = Math.floor(Math.random() * cards.length);

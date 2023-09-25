@@ -22,7 +22,7 @@ function Testimonial() {
       />
       <Button
         text={"Users"}
-        btnClass="btn-info btn-sm "
+        btnClass="btn-info btn-sm mx-2"
         onClick={() => setTestimonials("Users")}
       />
       <Button
