@@ -130,6 +130,9 @@ export default function Navbar() {
           <li class="menu__item">
             <Link to="/notes" class="menu__link">Notes</Link>
           </li>
+          <li class="menu__item">
+            <Link to="/login" class="menu__link">Login</Link>
+          </li>
         </ul>
       </div>
     </section>

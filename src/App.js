@@ -8,6 +8,7 @@ import Navbar from './components/Navbar';
 import Dashboard from './Dashboard';
 import CourseDetails from './pages/CourseStore/CourseDetails';
 import CourseList from './pages/CourseList';
+import Login from './pages/Login';
 function App() {
   return (
     <div className="App">
@@ -15,6 +16,7 @@ function App() {
         <Navbar />
       </div>
       <Routes>
+      <Route path="/login" element={<Login />} />
       <Route path="/" element={<Dashboard />} />
         <Route path="/notes" element={<NotesApp />} />
         <Route path="/course-list" element={<CourseList/>} />
