@@ -28,7 +28,7 @@ export default function NotesApp() {
     }
     return (
         <>
-        <div className="container pt-5">
+        <div className="container " style={{marginTop:"10%"}}>
             <Button btnClass={"btn-success"} text={"+ New note"} onClick={addNewNote} />
             <div className="container container-sm d-flex" style={{
                 gap: 25,

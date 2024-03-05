@@ -142,12 +142,13 @@ export default function DialogBox({ width = 350 }) {
         if (subscription.state === "subscribed") {
             setIcon(<BsFillEmojiSmileFill style={iconStyle} />);
             document.body.style.background = "rgba(40, 44, 52, 1)";
+            setDisabled(false);
         }
         if (subscription.state === "unsubscribed") {
             setIcon(<BsFillEmojiFrownFill style={iconStyle} />);
             document.body.style.background = "rgba(40, 44, 52, 1)";
+            setDisabled(true);
         }
-
     }, [subscription.state]);
 
     const [bounce, setBounce] = useState('');
