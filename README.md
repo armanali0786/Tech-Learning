@@ -1,3 +1,46 @@
+
+# Tech Learning 
+
+A Cousre Related Web Application
+
+## Features
+
+    User Registration:
+
+    Tech Courses 
+
+    Listing Courses
+    
+    User Profiles:
+    
+## Screenshots
+
+![Screenshot from 2024-03-05 17-48-55](https://github.com/armanali0786/Tech-Learning/assets/76746226/a7eac735-b75e-4bc7-9bd8-29a4c074c517)
+
+![Screenshot from 2024-03-05 17-49-05](https://github.com/armanali0786/Tech-Learning/assets/76746226/c154b48f-da83-45e6-9888-f992205430bc)
+
+![Screenshot from 2024-03-05 17-49-15](https://github.com/armanali0786/Tech-Learning/assets/76746226/7434f52a-e8b5-4e8d-bf41-1955bef5d51c)
+
+![Screenshot from 2024-03-05 17-49-31](https://github.com/armanali0786/Tech-Learning/assets/76746226/89764e41-8d6b-4363-b38c-b77254b852ba)
+
+![Screenshot from 2024-03-05 17-48-45](https://github.com/armanali0786/Tech-Learning/assets/76746226/6aa44d13-ee50-4a3b-835b-c9efad48a62d)
+
+![Screenshot from 2024-03-05 18-41-33](https://github.com/armanali0786/Tech-Learning/assets/76746226/6da0ef26-70da-4f14-8d87-fbedac305917)
+
+
+
+
+
+## Installation
+
+Install my-project with npm
+
+```bash
+  npm install my-project
+  cd my-project
+```
+    
+## Run Locally
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -8,7 +51,7 @@ In the project directory, you can run:
 
 ### `npm start`
 
-Runs the app in the development mode.
+Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
@@ -29,42 +72,34 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## Acknowledgements
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+ - [Awesome Readme Templates](https://www.notion.so/templates/category/projects)
+ - [Awesome README](https://github.com/armanali0786/awesome-readme)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Authors
 
-## Learn More
+- [@Arman Ali](https://www.github.com/armanali0786)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 🚀 About Me
 
-### Code Splitting
+- 🎓 I am recently completed my **Bachelor's in Information Technology**.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- 🌱 I’m currently learning **Data Structures and Algorithms.**
 
-### Analyzing the Bundle Size
+- 👯 I’m looking to collaborate on **OpenSource Projects**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- 👨‍💻 All of my projects are available at **[My Portfolio](https://github.com/armanali0786?tab=repositories)**
 
-### Making a Progressive Web App
+- 📫 How to reach me **armanali.shaikh77@gmail.com**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## 🔗 Links
 
-### Deployment
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/arman-ali-8383081ab/)
+[![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/Arman_Ali_01?s=09/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
