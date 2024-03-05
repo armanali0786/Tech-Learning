@@ -9,7 +9,7 @@ import NodeImage from '../assets/img/nodejs.png'
 import { BiPlay } from "react-icons/bi";
 
 import { FaPlay,FaClock,FaCalendarAlt } from "react-icons/fa";
-export default function Component() {
+export default function ECard() {
     return (
         <Card className="max-w-sm w-full">
             <div className="aspect-[16/9] relative">
