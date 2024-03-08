@@ -3,10 +3,10 @@ import React from 'react'
 export default function Pricing() {
   return (
     <>
-       <div className="container" data-aos="fade-up">
+                 <div className="container" data-aos="fade-up">
                     <div className="section-title">
                         <h2>Pricing</h2>
-                        <p>So many reasons to start.</p>
+                        <h5>Accelerate growth — for you or your organization.</h5>
                     </div>
                     <div className="row">
                         <div className="col-lg-4" data-aos="fade-up" data-aos-delay="100">

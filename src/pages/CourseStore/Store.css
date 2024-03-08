@@ -5,8 +5,8 @@ body {
   
   .header {
     overflow: hidden;
-    background-color: #282c34;
-    padding: 20px 10px;
+    /* background-color: #282c34; */
+    /* padding: 20px 10px; */
   }
   
   .header a {

@@ -1,0 +1,224 @@
+/* In your CSS file */
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+// @import './varibles';
+
+.banner {
+    padding-top: 60px;
+    padding-bottom: 70px;
+
+    .banner-slide {
+        border-radius: 25px;
+        img {
+            width: 100%;
+            // border-radius: 25px;
+            border-radius: 25px;
+            width: 100%;
+            max-height: 500px;
+            object-fit: cover;
+
+        }
+
+        .banner-details {
+            position: absolute;
+            color: #ffffff;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            left: 0;
+            // background: rgba(0, 84, 146, 0.80);
+            padding: 20px;
+            border-radius: 25px;
+            padding-top: 8%;
+            padding-left: 4%;
+            text-align: start;
+
+            .banner-title {
+                padding: 9px 0;
+                font-size: 34px;
+                font-weight: 900;
+                line-height: normal;
+                position: relative;
+                color: #37517e;
+                .banner-title::after {
+                    content: " ";
+                    background-color: blue;
+                    height: 5px;
+                    width: 43px;
+                    position: absolute;
+                    top: -6%;
+                    left: 0px;
+                }
+            }
+
+            .banner-text {
+                width: 701px;
+                height: 80px;
+                font-size: 17px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 29px;
+                margin-bottom: 20px;
+            }
+
+            .banner-btn {
+                padding: 13px 25px;
+                text-decoration: none;
+                border: 1px solid white;
+                border-radius: 5px;
+                color: black;
+                margin-top: 30px;
+
+                &:hover {
+                    color: blue;
+                    border-color: blue;
+                }
+            }
+        }
+    }
+}
+
+.banner .slick-dots li {
+    margin: 0 35px !important;
+}
+
+.banner .slick-arrow {
+    display: none !important;
+}
+
+.banner .slick-dots li button:before {
+    width: 70px !important;
+    height: 5px !important;
+    background-color: #007AC1;
+    content: " " !important;
+    margin-top: 20px !important;
+}
+
+@media only screen and (max-width: 1440px) {
+    .banner-details {
+        padding-top: 12% !important;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .banner-details {
+        .banner-title {
+            font-size: 24px !important;
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .banner-details {
+        .banner-title {
+            font-size: 22px !important;
+            line-height: normal !important;
+            padding: auto !important;
+            margin-bottom: 0px !important;
+        }
+    }
+}
+
+@media only screen and (max-width: 660px) {
+    .banner-details {
+        p.banner-text {
+            margin-bottom: 0 !important;
+        }
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .banner-slide {
+        display: flex !important;
+        flex-direction: column;
+        position: relative;
+        border-radius: 25px;
+    }
+
+    .banner-details {
+        margin-top: 20px;
+        position: unset !important;
+        background-color: bisque !important;
+        padding: 20px !important;
+        border-radius: 0px !important;
+        height: 250px !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center !important;
+    }
+}
+
+ul.control-dots{
+    display: none;
+}
+.dots {
+    display: flex;
+    justify-content: center;
+    margin-top: 18px;
+  }
+
+  .dot {
+    width: 70px;
+    height: 5px;
+    background-color: #37517e;
+    opacity: 0.5;
+    border-radius: 0;
+    margin: 0 10px;
+    cursor: pointer;
+  }
+
+  .dot.active {
+    background-color: #37517e;
+    opacity: 1;
+  }
+
+  /* Hide default arrows */
+  .banner .slick-arrow {
+    display: none !important;
+  }
+
+  
+@media only screen and (max-width: 550px) {
+    .banner {
+        padding-top: 30px !important;
+
+        .banner-slide {
+            img {
+                height: 200px !important;
+            }
+        }
+    }
+}
+
+
+  
+@media only screen and (max-width: 435px) {
+    .filter-tabs {
+        li {
+            padding-left: 10px !important;
+            padding-right: 10px !important;
+        }
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .banner {
+        .banner-slide {
+            img {
+                height: 220px !important;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .filter-tabs {
+        li {
+            padding-left: 5px !important;
+            padding-right: 5px !important;
+        }
+    }
+}

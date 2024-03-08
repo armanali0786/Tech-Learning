@@ -15,7 +15,6 @@ import jquery from '../img/jquery.png'
 import laravel from '../img/laravel.jpeg'
 import ruby from '../img/ruby.jpeg'
 import python from '../img/python.png'
-import React,{ useState } from 'react'
 
 export const coursesDB =[
     {
@@ -116,13 +115,3 @@ export const coursesDB =[
     },
 ]
 
-// export const coursesDB = ()=>{
-//     const [apiData, setApiData] = useState('');
-
-//     useEffect(() => {
-//         fetch('https://mocki.io/v1/19ad31fa-e534-4d91-9f10-8e6e92ad030d')
-//           .then(response => response.json())
-//           .then(json => setApiData(json))
-//       }, [])
-    
-// }

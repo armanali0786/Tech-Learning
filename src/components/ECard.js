@@ -24,11 +24,11 @@ export default function ECard() {
                         width:"420px"
                     }}
                 />
-                <div className="absolute inset-0 flex items-center justify-center p-6">
+                {/* <div className="absolute inset-0 flex items-center justify-center p-6">
                     <button className="absolute inset-6 btn btn-primary" variant="outline">
                         Watch Trail
                     </button>
-                </div>
+                </div> */}
             </div>
             <CardContent className="p-6 flex-col items-center space-y-6">
                 <div className="items-center space-x-2">

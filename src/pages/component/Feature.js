@@ -21,7 +21,6 @@ export default function Feature() {
                                     <input type="text" class="form-control w-50" placeholder="Try search 'Social Media Marketing'" />
                                 </div>
                                 <button class="btn btn-lg btn-icon-only btn-primary mb-0" type="button">
-                                    {/* <i class="fa fa-search" aria-hidden="true"></i> */}
                                     <FontAwesomeIcon icon={faSearch} />
                                 </button>
                             </form>

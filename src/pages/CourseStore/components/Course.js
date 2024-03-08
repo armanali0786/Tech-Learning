@@ -34,7 +34,7 @@ export default function Course({ course,openDialog }) {
     };
 
     return (
-        <li className='card  mb-2' style={{ width: 350 , cursor:"pointer"}} onClick={handleCourseDetails}>
+        <li className='card mb-2' style={{ width: 330 , cursor:"pointer"}} onClick={handleCourseDetails}>
             <div className={`card-header ${courseBg}`}>{title}</div>
             <img src={img} alt='course img' style={{ height: "100%" }} />
             <p className='card-body'>

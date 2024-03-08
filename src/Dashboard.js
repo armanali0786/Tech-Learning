@@ -1,20 +1,18 @@
 import React from 'react'
 import './assets/css/style.css';
-import heroImg from './assets/img/hero-img.png';
-import StartButton from './components/StartButton';
-import { Link } from 'react-router-dom';
-import CourseItemList from './components/CourseItemList';
+import CourseItemList from './pages/CourseItemList';
 import Store from './pages/CourseStore/Store';
-import Footer from './pages/Footer';
-import Pricing from './pages/Pricing';
-import Feature from './pages/Feature';
-import Category from './pages/Category';
+import Footer from './pages/component/Footer';
+import Pricing from './pages/component/Pricing';
+import Category from './pages/component/Category';
+
+import Testimonial from './pages/component/Testimonial';
+import Slider from './pages/component/Slider';
 export default function Dashboard() {
     return (
         <>
-
-            <section className='section-bg' style={{paddingTop:"95px"}}>
-                <Feature />
+            <section className='section-bg'>
+                <Slider />
             </section>
             <section className="about section-bg">
                 <Category />
@@ -38,8 +36,17 @@ export default function Dashboard() {
                 </div>
             </section>
 
-            <section id="pricing" className="pricing">
+            <section id="pricing" className="pricing bg-light">
                 <Pricing />
+            </section>
+            <section id="pricing" className="section-bg">
+                <div className="section-title">
+                    <h2>Testimonial</h2>
+                    <h5>See what others are achieving through learning.</h5>
+                </div>
+                <div className='d-flex'>
+                <Testimonial />
+                </div>
             </section>
             <Footer />
         </>

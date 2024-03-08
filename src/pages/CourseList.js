@@ -9,8 +9,7 @@ import Store from "./CourseStore/Store";
 
 export default function Component() {
     return (
-        <section className="row px-4 md:px-6 py-6 md:py-12 grid md:grid-cols-[1fr_200px] gap-6 items-start bg-light mt-5">
-
+        <section className="row px-4 md:px-6 py-6 md:py-12 grid md:grid-cols-[1fr_200px] gap-6 items-start bg-light" >
             <div className="col-12">
                 <div className=" grid gap-4">
                     <div className="flex flex-col md:flex-row items-start md:items-center gap-4 md:gap-8">
@@ -19,7 +18,7 @@ export default function Component() {
                             <p className="text-gray-500 dark:text-gray-400">Browse our latest courses and workshops.</p>
                         </div>
                         <div className="flex items-center gap-4 md:gap-8">
-                            <div className="flex items-center gap-2 md:gap-4">
+                            <div className="flex items-center gap-2 md:gap-4 text-black">
                                 <FormControlLabel
                                     control={<Checkbox id="enrolled" />}
                                     label="Enrolled"
@@ -31,10 +30,10 @@ export default function Component() {
                                     className="flex items-center gap-2 font-normal"
                                 />
                             </div>
-                            <div className="ml-auto flex items-center gap-2 md:gap-4">
+                            <div className="ml-auto flex items-center gap-2 md:gap-4 text-black">
                                 <FormControlLabel
                                     control={<Checkbox id="beginner" />}
-                                    label="Beginner"
+                                    label="Beginner" 
                                     className="flex items-center gap-2 font-normal"
                                 />
                                 <FormControlLabel
@@ -53,7 +52,7 @@ export default function Component() {
                     {/* <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                             <div className="flex flex-col gap-2">
                                 <h2 className="text-xl font-semibold tracking-tight">Introduction to JavaScript</h2>
-                                <p className="text-sm leading-none text-gray-500 dark:text-gray-400">
+                                <p className="text-sm leading-none dark:text-gray-400">
                                     Learn the basics of JavaScript programming with our interactive course.
                                 </p>
                                 <div className="flex items-center gap-2">
@@ -120,22 +119,3 @@ export default function Component() {
     )
 }
 
-function SearchIcon(props) {
-    return (
-        <svg
-            {...props}
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            strokeWidth="2"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-        >
-            <circle cx="11" cy="11" r="8" />
-            <path d="m21 21-4.3-4.3" />
-        </svg>
-    )
-}

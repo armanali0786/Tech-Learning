@@ -1,8 +1,6 @@
 import React, { useState } from 'react'
 import Button from '../../components/Button'
 import Courses from './components/Courses'
-import DialogBox from '..//DialogBox/DialogBox'
-import NoteApp from '../NotesApp/NotesApp'
 import './Store.css'
 // DB
 import { coursesDB } from './db/coursesDB'

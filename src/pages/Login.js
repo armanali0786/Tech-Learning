@@ -1,24 +1,61 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import '../assets/css/login.css'
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 export default function Login() {
+    const navigate = useNavigate();
+    const [username, setUsername] = useState();
+    const [email, setEmail] = useState();
+    const [password, setPassword] = useState();
+    const handleSubmitLogin = async (e) => {
+        e.preventDefault();
+        const formData = new FormData();
+        formData.append('username', username);
+        formData.append('password', password);
+        await fetch('https://dummyjson.com/auth/login', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+                username: username,
+                password: password,
+            })
+        })
+        .then(res => res.json(
+            navigate('/')
+        ))
+        .then(console.log)
+    }
+
     return (
         <>
-            <div  className="login-container">
+            <div className="login-container bg-light">
                 <div class="form-container">
                     <p class="title">Welcome back</p>
-                    <form class="form">
-                        <input type="email" class="input" placeholder="Email" />
-                        <input type="password" class="input" placeholder="Password" />
+                    <form class="form" onSubmit={handleSubmitLogin}>
+                        <input
+                            type="username"
+                            value={username}
+                            onChange={(e) => setUsername(e.target.value)}
+                            class="input"
+                            placeholder="Username"
+                            style={{color:"black"}}
+                        />
+                        <input
+                         type="password" 
+                         value={password} 
+                         onChange={(e) => setPassword(e.target.value)} 
+                         class="input"
+                          placeholder="Password"
+                          style={{color:"black"}}
+                           />
                         {/* <p class="page-link">
                             <span class="page-link-label">Forgot Password?</span>
                         </p> */}
-                        <button class="form-btn">Log in</button>
+                        <button type="submit" class="form-btn">Log in</button>
                     </form>
                     <p class="sign-up-label">
                         <Link to="/sign-up">
-                        Don't have an account?<span class="sign-up-link">
-                            Sign up
+                            Don't have an account?<span class="sign-up-link">
+                                Sign up
                             </span>
                         </Link>
                     </p>
