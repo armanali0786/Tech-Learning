@@ -29,7 +29,7 @@ export default function Store() {
 
     return (
         <CurrencyContext.Provider value={currency}>
-            <div className='container' style={{marginTop:"5%"}}>
+            <div className='container'>
                 {/* <h4 className='mb-2 mt-5'>Change Price Curency</h4>
                 {Object.values(currenciesDB).map((cur) => (
                     <Button

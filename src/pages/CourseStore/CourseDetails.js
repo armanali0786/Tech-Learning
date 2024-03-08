@@ -12,7 +12,8 @@ export default function Component() {
   };
 
   return (
-    <div className="row grid md:grid-cols-2 items-start max-w-6xl px-4 mx-auto gap-6 lg:gap-12 py-6 mt-5 bg-white">
+    // max-w-6xl
+    <div className="row grid md:grid-cols-2 items-start  px-4 mx-auto gap-6 lg:gap-12 py-6  bg-white">
       <div className="col-7">
         <div className="grid gap-4 md:gap-10 items-start">
           <div className="grid gap-2">
