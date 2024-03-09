@@ -8,38 +8,39 @@ import Category from './pages/component/Category';
 
 import Testimonial from './pages/component/Testimonial';
 import Slider from './pages/component/Slider';
+import CourseItems from './pages/component/CourseItems';
 export default function Dashboard() {
     return (
         <>
             <section className='section-bg'>
                 <Slider />
             </section>
-            <section className="about section-bg">
+            {/* <section className="about section-bg">
                 <Category />
-            </section>
-            <section className="about section-bg" >
+            </section> */}
+            <section className="about section-bg pt-5" >
                 <div className="container" data-aos="fade-up">
                     <div className="section-title">
-                        <h2>About technology</h2>
+                        <h2>All the skills you need in one place</h2>
                     </div>
-                    <div className="row content">
-                        <CourseItemList />
+                    <div className="pl-3">
+                        <CourseItems />
                     </div>
                 </div>
             </section>
-            <section id="services" className="services section-bg">
+            <section id="services" className="services bg-white pt-5 pb-5">
                 <div className="container" data-aos="fade-up">
                     <div className="section-title">
                         <h2>Come teach with us</h2>
                     </div>
-                    <Store />
+                    <CourseItemList/>
                 </div>
             </section>
 
-            <section id="pricing" className="pricing bg-light">
+            <section id="pricing" className="pricing bg-light pt-5 pb-5">
                 <Pricing />
             </section>
-            <section id="pricing" className="section-bg">
+            <section id="pricing" className="bg-white pt-5 pb-5">
                 <div className="section-title">
                     <h2>Testimonial</h2>
                     <h5>See what others are achieving through learning.</h5>

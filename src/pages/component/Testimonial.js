@@ -64,45 +64,44 @@ export default function Testimonial() {
         </CardFooter>
       </Card> */}
       {TestimonialDb.map((placement, index) => (
-        <Card key={index} className="max-w-sm w-full mx-auto bg-light rounded-lg">
+        <Card key={index} className="w-80 mx-auto bg-[#EDF1F1]
+         rounded-lg transition ease-in-out delay-150 bg-grey-500 hover:-translate-y-1 hover:scale-110 hover:bg-slate-200 duration-300">
           <CardBody className="p-6">
             <div className="flex items-center">
-              <Badge className="h-6 w-6">
+              <Badge className="h-6 w-12">
                 <img
                   alt="Company logo"
                   className="rounded-lg"
-                  height="24"
                   src={placement.companyLogo}
                   style={{
-                    aspectRatio: "24/24",
                     objectFit: "cover",
+                    height:"40px",
+                    width:"50px",
                   }}
-                  width="24"
                 />
               </Badge>
               <Badge className="ml-auto">
-                <FaBookmark className="h-4 w-4" />
+                <FaBookmark className="h-4 w-4 text-black" />
               </Badge>
             </div>
-            <p className="mt-4 text-xl font-semibold">{placement.jobTitle}</p>
+            <p className="mt-4 text-xl font-semibold">{placement.jobTitle} 
+            </p>
             <p>at {placement.companyName}</p>
-            <p className="border/t border-gray-200 dark:border-gray-800 rounded-lg p-3 bg-gray-50 dark:bg-gray-850">
-              <div className="prose dark:prose-dark">
+            <p className=" border-gray-200 dark:border-gray-800 rounded-lg p-3 bg-gray-50 dark:bg-gray-850">
                 <p>{placement.description}</p>
-              </div>
             </p>
             <div className="mt-4 grid gap-0.5 text-xs items-start sm:grid-flow-col">
               <div>
                 <p className="text-base font-medium">{placement.salary}</p>
                 <p className="text-xs">{placement.salaryType}</p>
               </div>
-              <div className="flex items-center gap-1.5">
-                <FaCalendarAlt className="h-4 w-4 opacity-50" />
-                Apply by {placement.applyBy}
+              <div className="flex items-center gap-1.5 text-black">
+                <FaCalendarAlt className="h-4 w-4 opacity-50 " />
+                 {placement.applyBy}
               </div>
             </div>
           </CardBody>
-          <CardFooter className="border/t border-gray-200 p-4 grid gap-2 items-center bg-black dark:bg-gray-850">
+          <CardFooter className="border/t border-gray-200 p-4 grid gap-2 items-center bg-gray-800">
             <Button text={"Placed"} className="w-full" variant="outline">
               View Details
             </Button>

@@ -140,7 +140,7 @@ p {
     margin-bottom: 1rem;
 }
 p{
-    color: black;
+    color: var(--bs-gradient-secondary-left);
 }
 abbr[data-bs-original-title],
 abbr[title] {

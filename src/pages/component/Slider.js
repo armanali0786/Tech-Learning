@@ -52,7 +52,7 @@ const SlickSlider = () => {
                       <div className="banner-details">
                         <h1 className="banner-title ">{slide.title}</h1>
                         <p className='banner_text'>{getFirstNWords(descriptionText, numWordsToShow)}....</p>
-                        <div className="pt-4">
+                        <div className="pt-4 pb-4">
                           <NavLink
                             className="banner-btn border-black"
                             to={`/course-list`}

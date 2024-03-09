@@ -15,7 +15,7 @@
             // border-radius: 25px;
             border-radius: 25px;
             width: 100%;
-            max-height: 500px;
+            max-height: 600px;
             object-fit: cover;
 
         }
@@ -23,16 +23,18 @@
         .banner-details {
             position: absolute;
             color: #ffffff;
-            top: 0;
-            width: 100%;
-            height: 100%;
-            left: 0;
+            top: 70px;
+            width: 50%;
+            // height: 100%;
+            left: 15px;
             // background: rgba(0, 84, 146, 0.80);
             padding: 20px;
-            border-radius: 25px;
+            border-radius: 20px;
             padding-top: 8%;
             padding-left: 4%;
             text-align: start;
+            padding-top: 20px !important;
+            background-color: #ffffffda;
 
             .banner-title {
                 padding: 9px 0;

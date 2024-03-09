@@ -3,15 +3,15 @@ import { FaTwitter, FaFacebook, FaInstagram, FaSkype, FaLinkedin } from 'react-i
 export default function Footer() {
     return (
         <>
-            <footer id="footer">
-                <div className="footer-newsletter">
+            <footer id="footer" className="#7AB5B7">
+                <div className="footer-newsletter bg-[#f3f5fa]">
                     <div className="container">
                         <div className="row justify-content-center">
                             <div className="col-lg-6">
                                 <h4>Join Our Newsletter</h4>
                                 <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
                                 <form action="" method="post">
-                                    <input type="email" name="email" />
+                                    <input className='focus:outline-none' type="email" name="email" />
                                     <input type="submit" value="Subscribe" />
                                 </form>
                                 {/* <SubsButton/> */}
@@ -20,7 +20,7 @@ export default function Footer() {
                     </div>
                 </div>
 
-                <div className="footer-top">
+                <div className="footer-top bg-white">
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-3 col-md-6 footer-contact">
@@ -58,12 +58,12 @@ export default function Footer() {
 
                             <div className="col-lg-3 col-md-6 footer-links">
                                 <h4>Our Social Networks</h4>
-                                <div className="social-links mt-3">
-                                    <a href="#" className="twitter"><FaTwitter /></a>
-                                    <a href="#" className="facebook"><FaFacebook /></a>
-                                    <a href="#" className="instagram"><FaInstagram /></a>
-                                    <a href="#" className="google-plus"><FaSkype /></a>
-                                    <a href="#" className="linkedin"><FaLinkedin /></a>
+                                <div className="social-links">
+                                    <a href="#" className="tsocial-linkswitter"><FaTwitter className='ml-2'/></a>
+                                    <a href="#" className="facebook"><FaFacebook className='ml-2'/></a>
+                                    <a href="#" className="instagram"><FaInstagram className='ml-2'/></a>
+                                    <a href="#" className="google-plus"><FaSkype className='ml-2'/></a>
+                                    <a href="#" className="linkedin"><FaLinkedin className='ml-2'/></a>
 
                                 </div>
                             </div>

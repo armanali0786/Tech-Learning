@@ -604,7 +604,7 @@ body {
   }
   
   .about .content ul li {
-    padding-left: 28px;
+    /* padding-left: 28px; */
     position: relative;
   }
   
@@ -1638,7 +1638,7 @@ body {
   --------------------------------------------------------------*/
   #footer {
     font-size: 14px;
-    background: #37517e;
+    /* background: #37517e; */
   }
   
   #footer .footer-newsletter {

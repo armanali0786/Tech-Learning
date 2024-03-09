@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import Button from '../../components/Button'
 import Courses from './components/Courses'
 import './Store.css'
 // DB
@@ -28,6 +27,8 @@ export default function Store() {
     };
 
     return (
+        <>
+        
         <CurrencyContext.Provider value={currency}>
             <div className='container'>
                 {/* <h4 className='mb-2 mt-5'>Change Price Curency</h4>
@@ -50,5 +51,6 @@ export default function Store() {
                 <Courses list={coursesDB} openDialog={openDialog} />
             </div>
         </CurrencyContext.Provider>
+        </>
     )
 }
