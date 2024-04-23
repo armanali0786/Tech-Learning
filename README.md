@@ -15,9 +15,6 @@ A Cousre Related Web Application
     
 ## Screenshots
 
-file:///home/backend/Videos/Screencasts/Screencast%20from%2023-04-24%2006:01:43%20PM%20IST.webm
-
-
 ![Screenshot from 2024-03-05 17-48-55](https://github.com/armanali0786/Tech-Learning/assets/76746226/a7eac735-b75e-4bc7-9bd8-29a4c074c517)
 
 ![Screenshot from 2024-03-05 17-49-05](https://github.com/armanali0786/Tech-Learning/assets/76746226/c154b48f-da83-45e6-9888-f992205430bc)
